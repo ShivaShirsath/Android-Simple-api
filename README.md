@@ -33,7 +33,7 @@
 		}
 	)
    );
-```
+   ```
 + JSON Array
    ```java
    Volley.newRequestQueue(this).add(
@@ -54,10 +54,10 @@
 		new Response.ErrorListener(){
 			@Override
 			public void onErrorResponse(VolleyError e) {
-			    Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();	
+			    Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
 			}
 		}
 	)
    );
-```
+   ```
 
